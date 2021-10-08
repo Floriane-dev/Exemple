@@ -3,6 +3,11 @@ package banque;
 public class Compte {
     private int num;
     private double solde;
+
+//Création du constructeur
+public Compte(){
+
+}
     
     public Compte(int num, double solde) {
         this.num = num;
@@ -22,5 +27,9 @@ public class Compte {
     public void setSolde(double solde) {
         this.solde = solde;
     }
-    
+
+    //Méthode pour que l'affichage apparraisse correctement dans le test
+public String toString(){
+    return (num + "|" + solde);
+}
 }
