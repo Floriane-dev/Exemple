@@ -31,5 +31,5 @@ public Compte(){
     //Méthode pour que l'affichage apparraisse correctement dans le test
 public String toString(){
     return (num + "|" + solde);
-}
+    }
 }
