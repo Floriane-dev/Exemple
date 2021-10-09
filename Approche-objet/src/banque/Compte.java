@@ -4,7 +4,7 @@ public class Compte {
     private int num;
     private double solde;
 
-//Création du constructeur
+//Création de deux constructeurs
 public Compte(){
 
 }
